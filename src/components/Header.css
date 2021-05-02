@@ -1,0 +1,83 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    /* background: linear-gradient(to bottom, #ffcccc, #ffe6cc); */
+    background-color: rgb(65, 99, 90);
+    border-bottom: 1px solid black;
+    /* color: rgb(26, 15, 15); */
+    color: white;
+    box-shadow: rgb(1, 1, 1) 0px 10px 30px -12px ;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+.logo-wrap {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+    font: bold;
+    letter-spacing: 1.14px;
+    text-transform: uppercase;
+    padding: 0px 4px;
+    cursor: pointer;
+
+}
+
+.logo-wrap > a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-wrap > img {
+    height: 86px;
+    margin-top: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    background: white;
+    border-radius: 50%;
+    margin-right: 4px; 
+}
+
+.navbar {
+    display: inline-block;
+    position: absolute;
+    top: -11px;
+    right: 0;
+}
+.navbar > ul {
+    display: flex;
+    justify-content: space-between;
+    font: bold;
+    font-size: 20px;
+    position: absolute;
+    text-transform: uppercase;
+    right: 0;
+    color: white;
+    
+}
+
+.navbar > ul > li  {
+    padding: 10px;
+    /* color: rgb(26, 15, 15); */
+    list-style-type: none;
+    
+}
+
+.navbar > ul > li > a {
+    color: white;
+    transition: .3s ease-in ;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar > ul > li > a:hover {
+    background-color: white;
+    color:rgb(65, 99, 90);
+}

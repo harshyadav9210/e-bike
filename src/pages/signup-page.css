@@ -1,0 +1,22 @@
+.signup-page{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px
+}
+
+.option > h3 >button {
+    color: blue;
+    border: 0;
+    background: none;
+    cursor: pointer;
+
+}
+
+
