@@ -1,0 +1,12 @@
+.bike-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 60%;
+    max-width: 100vw;
+    
+}

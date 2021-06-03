@@ -14,11 +14,11 @@
     border-radius: 4px;
     box-shadow: black 10px 10px 20px -3px;
     margin-top: 20px;
-    transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+    transition: 0.3s ease-in ;
 }
 
 .home-img > img:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     overflow: hidden;
 }
 

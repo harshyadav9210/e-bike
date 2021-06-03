@@ -6,8 +6,36 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100%;
+    margin-bottom: 300px;
+    
+}
+.heading{
+    font-family: 'Zen Dots', cursive;
+    font-size: 28px;
+    transition: ease-out 250ms;
 }
 
+.rent-page-map{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 6%;
+    top: 20%;
+    height: 300px;
+    width: 80%;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 25px;
+    padding: 25px;
+    
+
+}
+.rent-page-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* 
 .bike-group {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -16,10 +44,10 @@
 }
 
 .bike {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 22vw;
     height: auto;
-    /* padding: 50px; */
+    padding: 50px;
     position: relative;
     top: 0;
     box-shadow: rgb(5,5,5) 10px 10px 20px 0px;
@@ -73,8 +101,8 @@ img:hover + .button,  .button:hover {
 }
 
  .button :hover {
-    /* background-color: white;
+    background-color: white;
     color: black;
-    border: 1px solid black; */
+    border: 1px solid black;
     box-shadow: black 3px 3px 10px 0px;
-}
+} */

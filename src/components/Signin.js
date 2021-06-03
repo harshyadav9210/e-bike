@@ -72,12 +72,12 @@ const Signin = (props) => {
             </div>
                 <div className="footer">
                     <button 
-                        type='submit' 
-                        className="signup" 
+                        type='submit'  
                         onClick={signin}
                     >
-                        Sign In
+                        Sign In 
                     </button>
+                    
 
                 </div>
 
